@@ -33,10 +33,10 @@ class Empleado:
     # Aqui va el codigo del metodo
         return self.Nombre +" "+ self.Apellido
     
-        Juliana Rodriguez
+        JulianaRodriguez
     
     def AumentoSalarial(self):
-        nSalario= self.Salario =
+        nSalario= self.Salario = 0.05
     
     
     
