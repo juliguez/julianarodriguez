@@ -36,7 +36,11 @@ class Empleado:
         JulianaRodriguez
     
     def AumentoSalarial(self):
-        nSalario= self.Salario = 0.05
+        nSalario = self.Salario = 0.05
+        nSalario = nSalario + self.Salario
+        self.Salario = nSalario
+        return "El nuevo salario es de:"+self.Salario
+
     
     
     
