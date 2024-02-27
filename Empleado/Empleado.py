@@ -1,42 +1,42 @@
 class Empleado:
-    # Aqui el copdigo}
+    # Aqui el copdigo
     # Atributos
-    Nombre = ""
-    Apellido = ""
-    Sexo = ""
+    nombre = ""
+    apellido = ""
+    sexo = ""
     # 1= masculino 2= femenino
-    Salario = 0
+    salario = 0
     '''---------------------------------------------------
     ------------------------------------------------------'''
     # Metodos 
-    def CambiarSalario(self, nuevoSalario):
+    def CambiarSalario(self, nuevosalario):
     # Aqui va el codigo del metodo 
         return 0
 
-    def CambiarEmpleado(self, nNombre, nApellido, nSexo, nSalario):
+    def CambiarEmpleado(self, nnombre, napellido, nsexo, nsalario):
     # Aqui va el codigo del nuevo Empleado
         return None 
         
     def ConsultarSalario(self):
     # Aqui va el codigo del metodo
-        return self.Salario
+        return self.salario
     
     def ConsultarNombre(self):
     # Aqui va el codigo del metodo
-        return self.Nombre
+        return self.nombre
     
     def ConsultarApellido(self):
     # Aqui va el codigo del metodo
-        return self.Apellido
+        return self.apellido
     
     def ConsultarNombrecompleto(self):
     # Aqui va el codigo del metodo
-        return self.Nombre +" "+ self.Apellido
+        return self.nombre +" "+ self.apellido
     
         JulianaRodriguez
     
     def AumentoSalarial(self):
-        nSalario = self.Salario = 0.05
-        nSalario = nSalario + self.Salario
-        self.Salario = nSalario
-        return "El nuevo salario es de:"+self.Salario
+        nsalario = self.salario = 0.05
+        nsalario = nsalario + self.salario
+        self.salario = nsalario
+        return "El nuevo salario es de:"+self.salario
