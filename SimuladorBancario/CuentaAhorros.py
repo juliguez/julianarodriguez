@@ -1,9 +1,13 @@
 class CuentaAhorro:
     # Aqui el codigo de cuenta de ahorro 
-    # atributos 
+    # Atributos 
     saldo = 0
     InteresMensual = 0    
-    
+    '''__________________________________________________
+    __________________________________________________'''
+    #Metodos 
+    '''__________________________________________________
+    __________________________________________________'''
 def ConsignarValor (self):
     nsaldo = self.saldo + 100000
     self.saldo = nsaldo
