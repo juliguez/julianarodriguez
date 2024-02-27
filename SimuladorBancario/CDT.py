@@ -4,3 +4,13 @@ class CDT:
     ValorInversion = 0
     InteresMensual = 0
     MesApertura = ""
+    '''__________________________________________________
+    __________________________________________________'''
+    #Metodos
+    '''__________________________________________________
+    __________________________________________________'''
+    def InteresMnesual (self):
+        nsaldo = self.saldo * 0.0
+        nsaldo = self.saldo + nsaldo
+        self.saldo = nsaldo
+        return " Su interes es " + self.saldo
