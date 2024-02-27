@@ -6,4 +6,4 @@ class CuentaCorriente:
     def ConsignarSaldo (self):
         nsaldo = self.saldo + 150000
         self.saldo = nsaldo
-        return "El nuevo saldo mas el valor asignado es" + self.saldo
+        return " El nuevo saldo mas el valor asignado es " + self.saldo
