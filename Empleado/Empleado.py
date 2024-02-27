@@ -40,9 +40,3 @@ class Empleado:
         nSalario = nSalario + self.Salario
         self.Salario = nSalario
         return "El nuevo salario es de:"+self.Salario
-
-    
-    
-    
-    
-   

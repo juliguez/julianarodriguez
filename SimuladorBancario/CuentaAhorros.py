@@ -1,5 +1,6 @@
 class CuentaAhorro:
-    # Aqui el codigo 
+    # Aqui el codigo de cuenta de ahorro 
     # atributos 
-    Saldo = 0
+    saldo = 0
     InteresMensual = 0    
+    
