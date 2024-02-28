@@ -5,9 +5,18 @@ class empleado:
     # Atributos
     nombre = ""
     apellido = ""
-    sexo = ""
+    '''---------------------------------------------------
     # 1= masculino 2= femenino
+     ------------------------------------------------------'''
+    genero = ""
     salario = 0
+
+    '''---------------------------------------------------
+    # Asociaciones
+    ------------------------------------------------------'''
+
+    fechaNacimiento= fecha()
+    fechaIngreso= fecha()
 
     '''---------------------------------------------------
     # Metodos
@@ -56,4 +65,7 @@ class empleado:
         # Aqui va el codigo 
         asalario = self.salario * 12
         return asalario
+    
+    def ConsultarDiaCumpleanios (self):
+        return " El dia de su cumpleaños es: "+self.fechaNacimiento.CambiarDia ()
 
