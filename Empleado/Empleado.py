@@ -68,4 +68,17 @@ class empleado:
     
     def ConsultarDiaCumpleanios (self):
         return " El dia de su cumpleaños es: "+self.fechaNacimiento.CambiarDia ()
+    
+
+    def CalcularImpuesto (self):
+        # forma 1
+        total = self.CalcularSalarioAnual()
+        return (total * 19.5) / 100
+
+        # forma 2
+        # return self.CalcularSalarioAnual() * 0.195
+    
+    
+    
+
 
