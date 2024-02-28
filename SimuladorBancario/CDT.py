@@ -9,7 +9,7 @@ class CDT:
     #Metodos
     '''__________________________________________________
     __________________________________________________'''
-    def InteresMnesual (self):
+    def InteresMensual (self):
         nsaldo = self.saldo * 0.0
         nsaldo = self.saldo + nsaldo
         self.saldo = nsaldo

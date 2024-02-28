@@ -7,10 +7,10 @@ class CuentaCorriente:
     #Metodos
     '''__________________________________________________
     __________________________________________________'''
-    def ConsignarSaldo (self):
+    def ConsignarValor (self):
         nsaldo = self.saldo + 150000
         self.saldo = nsaldo
-        return " El nuevo saldo mas el valor asignado es " + self.saldo
+        return " El nuevo saldo mas el valor consignado es " + self.saldo
     
     def RetirarValor (self):
         nsaldo = self.saldo - 150000
