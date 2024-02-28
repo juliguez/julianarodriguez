@@ -1,3 +1,5 @@
+from Fecha import fecha
+
 class empleado:
     # Aqui el codigo
     # Atributos
@@ -46,7 +48,7 @@ class empleado:
     def DuplicarSalario (self):
         # Aqui va el codigo 
         # Forma 1
-        self.salario = self.salario*2
+        # self.salario = self.salario*2
         # Forma 2
         self.salario *= 2
 
