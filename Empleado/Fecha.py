@@ -10,10 +10,14 @@ class fecha:
     # Metodos
     ------------------------------------------------------'''
 
-    def CambiarDia (self, ndia):
+    def CambiarDia (self):
     # Aqui va el codigo del metodo
         return self.dia
     
-
-
-
+    def CambiarMes (self):
+    # Aqui va el codigo del metodo
+        return self.mes
+    
+    def CambiarAnio (self):
+    # Aqui va el codigo del metodo
+        return self.anio
