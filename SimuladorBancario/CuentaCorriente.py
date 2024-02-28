@@ -1,7 +1,7 @@
 class CuentaCorriente:
     # Aqui el codigo
     # Atributos
-    saldo= 0
+    saldo = 0
     '''__________________________________________________
     __________________________________________________'''
     #Metodos
