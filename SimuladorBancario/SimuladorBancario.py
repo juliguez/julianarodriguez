@@ -27,8 +27,7 @@ class SimuladorBancario:
     
     def CalcularSaldoTotal (self):
         #Aqui el codigo del metodo
-        self.CuentaCorriente.saldo()
-        
+        return "CalcularSaldoTotal:"+ (self.CuentaCorriente+self.CuentaAhorros)
     
     def PasarAhorroaCorriente (self):
 
