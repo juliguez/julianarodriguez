@@ -1,5 +1,5 @@
-class Empleado:
-    # Aqui el copdigo
+class empleado:
+    # Aqui el codigo
     # Atributos
     nombre = ""
     apellido = ""
