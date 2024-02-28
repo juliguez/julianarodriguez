@@ -13,7 +13,7 @@ def ConsignarValor (self):
     self.saldo = nsaldo
     return " El nuevo saldo mas el valor condignado es " + self.saldo
 
-def RetiraValor (self):
+def RetirarValor (self):
     nsaldo = self.saldo - 100000
     self.saldo = nsaldo
     return " El nuevo saldo menos el valor retirado es " + self.saldo
