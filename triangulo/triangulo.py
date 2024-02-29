@@ -1,3 +1,5 @@
+from color import Color
+from punto import Punto
 
 class Triangulo:
     # Atributos
@@ -14,9 +16,7 @@ class Triangulo:
     ------------------------------------------------------'''
 
 
-    colorLinea= 0
-    colorRelleno=0
+    color= Color()
+    punto= Punto()
     
-    punto1= 0
-    punto2= 0
-    punto3= 0
+
