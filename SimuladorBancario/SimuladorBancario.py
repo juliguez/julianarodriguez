@@ -38,7 +38,9 @@ class SimuladorBancario:
     
     def PasardeCuentaAhorroaCuentaCorriente (self):
         # Aqui el codigo del metodo
-        return 
+        self.CuentaAhorros.saldo += self.CuentaCorriente.saldo
+        self.CuentaAhorros.saldo = 0
+        return "El saldo ha sido transferido" 
     
     def ConsultarSaldoCorriente (self):
         # Aqui va el codigo del metodo 
