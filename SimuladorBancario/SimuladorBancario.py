@@ -40,5 +40,5 @@ class SimuladorBancario:
     
     def RetirarTodo (self):
         # Aqui va el codigo del metodo
-        return "Dinero retirado cpn exito" +(self.CuentaCorriente.saldo + self.CuentaAhorros.saldo + self.CDT)
+        return "Dinero retirado con exito" +(self.CuentaCorriente.saldo + self.CuentaAhorros.saldo + self.CDT)
     
