@@ -27,8 +27,18 @@ class SimuladorBancario:
     
     def CalcularSaldoTotal (self):
         #Aqui el codigo del metodo
-        return "CalcularSaldoTotal:" +(self.CuentaCorriente.saldo + self.CuentaAhorros.saldo)
+        Saldototal = self.saldo 
+        return "CalcularSaldoTotal:" 
     
     def PasardeCuentaAhorroaCuentaCorriente (self):
         # Aqui el codigo del metodo
         return 
+    
+    def ConsultarSaldoCorriente (self):
+        # Aqui va el codigo del metodo 
+        return self.CuentaCorriente.saldo()
+    
+    def RetirarTodo (self):
+        # Aqui va el codigo del metodo
+        return "Dinero retirado cpn exito" +(self.CuentaCorriente.saldo + self.CuentaAhorros.saldo + self.CDT)
+    
