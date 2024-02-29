@@ -11,12 +11,12 @@ class CuentaCorriente:
         return self.saldo
 
     def ConsignarValor (self,saldo):
-        nsaldo = self.saldo + ""
+        nsaldo = self.saldo + 150000
         self.saldo = nsaldo
         return " el valor consignado es " + ""
     
     def RetirarValor (self,saldo):
-        nsaldo = self.saldo - ""
+        nsaldo = self.saldo - 150000
         self.saldo = nsaldo
         return " el valor retirado es " + ""
     

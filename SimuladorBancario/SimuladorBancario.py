@@ -5,8 +5,8 @@ from CuentaCorriente import CuentaCorriente
 class SimuladorBancario:
     # Aqui va el codigo
     # Atributos
-    Cedula = ""
-    Nombre = ""
+    cedula = ""
+    nombre = ""
     MesActual = ""
 
     '''---------------------------------------------------
