@@ -6,7 +6,7 @@ class CuentaCorriente:
     '''---------------------------------------------------
     # Metodos
     ------------------------------------------------------'''
-    def ConsultarValor (self):
+    def ConsultarSaldo (self):
         # Aqui va el codigo del metodo
         return self.saldo
 
@@ -20,3 +20,5 @@ class CuentaCorriente:
         self.saldo = nsaldo
         return " el valor retirado es " + ""
     
+    # control kc
+    # cpntrol ku
