@@ -6,14 +6,17 @@ class CuentaCorriente:
     '''---------------------------------------------------
     # Metodos
     ------------------------------------------------------'''
+    def ConsultarValor (self):
+        # Aqui va el codigo del metodo
+        return self.saldo
 
-    def ConsignarValor (self):
-        nsaldo = self.saldo + 150000
+    def ConsignarValor (self,saldo):
+        nsaldo = self.saldo + ""
         self.saldo = nsaldo
-        return " El nuevo saldo mas el valor consignado es " + self.saldo
+        return " el valor consignado es " + ""
     
-    def RetirarValor (self):
-        nsaldo = self.saldo - 150000
+    def RetirarValor (self,saldo):
+        nsaldo = self.saldo - ""
         self.saldo = nsaldo
-        return " El nuevo saldo menos el valor retirado es " + self.saldo
+        return " el valor retirado es " + ""
     
